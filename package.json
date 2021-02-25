@@ -1,0 +1,23 @@
+{
+  "name": "first-pwa-app",
+  "version": "1.0.0",
+  "description": "This is the frst PWA example",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rana0510/Website.git"
+  },
+  "author": "Rana0510",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rana0510/Website/issues"
+  },
+  "homepage": "https://github.com/Rana0510/Website#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
