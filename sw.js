@@ -1,5 +1,5 @@
 let cacheName = "static-v1";
-let filesToCache = ["./", "./index.html", "./css/style.css", "./js/main.js"];
+let filesToCache = ["./", "./css/style.css", "./js/main.js"];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener("install", (e) => {
