@@ -48,3 +48,7 @@ header .navbar-toggler:focus {
 .message .card p{
     font-size: 1em;
 }
+
+p {
+    user-select: none;
+}
