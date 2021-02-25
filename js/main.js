@@ -1,7 +1,3 @@
-window.onload = () => {
-    "use strict";
+$(document).ready(function () {
   
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js");
-    }
-};
+});
