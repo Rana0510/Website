@@ -26,6 +26,8 @@ header .navbar-toggler:focus {
 .main {
     flex-direction: column;
     flex-wrap: wrap;
+    position: absolute;
+    top: 4rem;
 }
 
 .message {
