@@ -1,3 +1,5 @@
+const expectedCaches = ['static-v1'];
+
 let cacheName = "static-v1";
 let filesToCache = ["./", "./css/style.css", "./js/main.js"];
 
