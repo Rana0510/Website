@@ -3,7 +3,7 @@
 }
 
 header {
-    margin: 1rem 10vmin;
+    margin: 1rem 2vmin;
 }
 
 header .navbar li a {
@@ -21,6 +21,11 @@ header > nav > div > button > i {
 header .navbar-toggler:focus {
     box-shadow: 0px 0px 0px 0.2rem #0e9fed;
     clip: auto;
+}
+
+.main {
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .message {
