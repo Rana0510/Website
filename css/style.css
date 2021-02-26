@@ -74,9 +74,9 @@ body {
     justify-content: center;
 }
 
-.content .col-md-8 {
+h1 {
     opacity: 0;
-    font-size: 64px;
+    font-size: 72px;
     color: white;
     margin: 0;
     padding: 0;
@@ -85,33 +85,6 @@ body {
     animation-delay: 4.2s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
-}
-
-.content .col-md-8 .card {
-    color: black;
-    opacity: 0;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-delay: 5s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-}
-
-#cards {
-    justify-content: center !important;
-    align-items: center;
-}
-
-.content .col-md-8 .card {
-    font-size: 24px;
-}
-
-.content .col-md-8 .card .card-title {
-    font-size: 24px;
-}
-
-.content .col-md-8 .card .card-body {
-    font-size: 14px;
 }
 
 @keyframes fadeIn {
